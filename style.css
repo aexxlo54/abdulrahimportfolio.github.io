@@ -727,8 +727,8 @@ span {
 
 
 .contact{
-    min-height:100vh;
-    padding-bottom: 2rem;
+    min-height: 100vh;
+    padding-bottom: 7rem;
 }
 
 .contact h2{
@@ -1066,6 +1066,10 @@ section:nth-child(odd) .animate.scroll,
 
     .contact form .input-box .input-field{
         width: 100%;
+        padding-bottom: 1rem;
+    }
+    .contact h2 {
+        font-size: 24px; /* Reduce font size for headings */
     }
 }
 
