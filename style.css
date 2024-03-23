@@ -743,6 +743,7 @@ span {
 .contact{
     min-height: 100vh;
     padding-bottom: 7rem;
+    background: var(--second-bg-color);
 }
 
 .contact h2{
@@ -840,28 +841,15 @@ span {
     cursor: pointer;
 }
 
-.embed-responsive {
-    position: relative;
-    display: block;
-    height: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
 .certificates {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 2rem;
-    background: var(--second-bg-color);
-    padding-bottom: 6rem;
-}
-
-.certificates-content p{
-    position: relative;
-    font-size: 1.6rem;
-    margin: 2rem 0 3rem;
+    min-height: auto;
+    padding-bottom: 5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 .footer {
