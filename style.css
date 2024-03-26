@@ -27,6 +27,7 @@ html{
 body{
     color: #ededed;
     background: var(--bg-color);
+    overflow-x: hidden; /* Add this to prevent horizontal scrolling */
 }
 
 .section-container {
@@ -911,9 +912,7 @@ span {
 }
 
 /*ANIMATION RELOAD AND SCROLL*/
-body {
-    overflow-x: hidden; /* Add this to prevent horizontal scrolling */
-}
+
 
 .animate {
     position: absolute;
