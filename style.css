@@ -911,6 +911,10 @@ span {
 }
 
 /*ANIMATION RELOAD AND SCROLL*/
+body {
+    overflow-x: hidden; /* Add this to prevent horizontal scrolling */
+}
+
 .animate {
     position: absolute;
     top: 0;
