@@ -979,8 +979,8 @@ section:nth-child(odd) .animate.scroll,
 /* For screens smaller than 1000px */
 @media (max-width: 1000px) {
     .pdfViewer {
-        width: 100%;
-        height: auto;
+        width: 75%;
+        height: 800px;
     }
 }
 
