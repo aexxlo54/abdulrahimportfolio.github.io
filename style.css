@@ -1124,6 +1124,39 @@ section:nth-child(odd) .animate.scroll,
     }
 }
 
+/* For larger screens */
+@media (min-width: 1440px) {
+    .animate.home-img {
+        width: 60%;
+    }
+
+    .header {
+        padding: 3rem 5%;
+    }
+
+    section {
+        padding: 12rem 5% 3rem;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    .home-sci {
+        width: 180px;
+    }
+
+    .home-sci a {
+        width: 42px;
+        height: 42px;
+    }
+    /* Add more styles as needed */
+}
+
 
 /*KEYFRAME ANIMATIONS*/
 
