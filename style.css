@@ -853,6 +853,11 @@ span {
     padding-right: 1.5rem;
 }
 
+.pdfViewer {
+    width: 1000px;
+    height: 800px;
+}
+
 .footer {
     display: flex;
     justify-content: space-between;
@@ -968,6 +973,14 @@ section:nth-child(odd) .animate.scroll,
 @media (max-width: 1200px) {
     html {
         font-size: 55%;
+    }
+}
+
+/* For screens smaller than 1000px */
+@media (max-width: 1000px) {
+    .pdfViewer {
+        width: 100%;
+        height: auto;
     }
 }
 
